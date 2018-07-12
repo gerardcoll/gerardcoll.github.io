@@ -1,0 +1,37 @@
+body {
+    background-image: url(thom-527-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-color: #464646;
+    color: white;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0;
+  background: yellow;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 18px;
+  line-height: 1;
+  width: 200px;
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+button img {
+  float: right;
+  margin-left: 15px;
+}
+
+button:hover {
+  border-color: red;
+}
+
+.jumbotron {
+   background: rgba(200, 54, 54, 0); 
+}
